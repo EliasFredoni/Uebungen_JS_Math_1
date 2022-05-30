@@ -25,7 +25,12 @@ console.log(Math.round(array[1]))
 console.log(Math.round(array[2]))
 console.log(Math.round(array[3]))
 
-let array2 = i = i.forEach(x => console.log(Math.round(x)));
+let runden = () => {
+    array.forEach(i => {
+        console.log(Math.round(i))
+    })
+}
+runden();
 
 /*********LEV 1.3*********/
 
